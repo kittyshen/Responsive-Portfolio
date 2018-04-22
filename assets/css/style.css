@@ -19,7 +19,7 @@ h1{
     height: 80px;   
 }
 #top-inner{
-    width:960px;
+    width:94%;
     margin-right:auto;
     margin-left:auto;
 }
@@ -68,16 +68,46 @@ h1{
     height: 80px;
 }
 
-#content960{
-    width:960px;
-   /* background-color: rgba(255, 228, 196, 0.85);*/
+
+#content960{ 
+    clear:both;
+    width:60%;
+    float: left;
+    margin-left:3%;
     background-color: rgba(211, 211, 211, 0.85);
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-right:auto;
-    margin-left:auto;
     min-height: 480px;
 }
+
+#sideBar{
+    width: 30%;
+    float:left;
+    margin-left:2%;
+    background-color: rgba(211, 211, 211, 0.85);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-height: 480px;
+    padding:10px;
+}
+#sideBar ul> li>span>a{
+    padding:10px;
+    display: block;
+    line-height: 2;
+    text-decoration: none;
+}
+#sideBar h2 {
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 3%;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: orange;
+    border-bottom: 3px solid grey;
+
+}
+
 
 #aboutme {
     color:orange;
@@ -96,6 +126,7 @@ img{
     padding:1% 2% 1% 0;
     max-width: 200px;
 }
+
 p{
     padding:1%;
 }
