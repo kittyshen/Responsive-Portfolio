@@ -211,10 +211,10 @@ textarea{
 } */
 
 .showCase{
-    width:40%;
+    width:42%;
     max-height: 30%;
-    margin: 1.0em 0.8em;
-    padding: 0.5em;
+    margin: 1% 2%;
+    padding: 1%;
     padding-bottom: 8%;
     margin-bottom: 8%;
     float:left;
@@ -223,7 +223,7 @@ textarea{
 }
 
 .showCase img{
-    max-width: 60%;
+    max-width:60%;
     margin-left:20%;
     margin-right:20%;
     margin-top:12%;
@@ -243,4 +243,68 @@ textarea{
     padding: 5%;
     margin: 4%;
     text-align: center;
+}
+
+@media(max-width:768px){
+    #content960{ 
+        clear:both;
+        width:95%;
+        float: left;
+        margin:2%;
+    }
+    #sideBar{
+        display:none;
+    }
+
+}
+@media (max-width: 640px) {
+
+    #Name{
+        position: static;
+        color: white;
+        width:100%;
+        font-size: 30px;
+        height: 45px;
+        margin-top: 10px;
+        padding-top: 10px;
+        border-top:2px solid rgb(252, 186, 63);
+        border-left:2px solid rgb(248, 197, 101);
+        border-right:2px solid rgb(248, 197, 101);
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        text-align: center;
+        background-color: orange;
+        float:left;
+    }
+    .nav_bar {
+        clear:both;
+        width: 115%;
+        background-color: rgb(80, 80, 80);
+        text-align: center;
+        padding: 0 auto;
+        margin: 0 -30px;
+    }
+    .nav_bar  >li{
+        display: block;
+        text-align: center;
+        display: inline-block;
+        float: none;
+        padding-bottom:10px;
+        padding-top:0px;
+    }
+
+    .showCase{
+        width:90%;
+        max-height: 30%;
+        margin: 1% 2%;
+        padding: 1%;
+        padding-bottom: 8%;
+        margin-top: 8%;
+        margin-bottom: 4%;
+        float:left;
+        background-color:white;
+        box-shadow: 2px 3px 2px grey;
+    }
+    
+    
 }
