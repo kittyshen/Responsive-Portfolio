@@ -176,6 +176,7 @@ textarea{
     background-color: rgb(224, 121, 80);
 }
 
+/*
 .oneThird{
     width:30%;
     height: 260px;
@@ -207,5 +208,39 @@ textarea{
     padding: 5%;
     margin: 4%;
     text-align: center;
+} */
+
+.showCase{
+    width:40%;
+    max-height: 30%;
+    margin: 1.0em 0.8em;
+    padding: 0.5em;
+    padding-bottom: 8%;
+    margin-bottom: 8%;
+    float:left;
+    background-color:white;
+    box-shadow: 2px 3px 2px grey;
 }
 
+.showCase img{
+    max-width: 60%;
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:12%;
+}
+.showCase img:hover{
+    margin-top:10%;
+    outline: 5px dotted orange;
+    outline-offset: -2px;
+}
+
+.showCase span{
+    background-color: orange;
+    color:white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    padding: 5%;
+    margin: 4%;
+    text-align: center;
+}
