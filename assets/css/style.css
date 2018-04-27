@@ -192,6 +192,7 @@ textarea{
     width:42%;
     max-height: 30%;
     margin: 1% 2%;
+    position: relative;
     padding: 1%;
     padding-bottom: 8%;
     margin-bottom: 8%;
@@ -205,9 +206,11 @@ textarea{
     margin-left:20%;
     margin-right:20%;
     margin-top:12%;
+    border: 1px solid white;
+    border-radius: 1.5em;
 }
 .showCase img:hover{
-    margin-top:10%;
+    /* margin-top:10%; */
     outline: 5px dotted orange;
     outline-offset: -2px;
 }
