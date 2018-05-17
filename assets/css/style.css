@@ -226,6 +226,19 @@ textarea{
     text-align: center;
 }
 
+.showCase a {
+    color: white;
+    text-decoration:none;
+}
+.showCase .hidden {
+    opacity:0;
+    background-color: grey;
+}
+.showCase :hover + .hidden{
+    opacity:0.3 !important;
+}
+
+
 @media(max-width:768px){
     #content960{ 
         clear:both;
@@ -233,10 +246,12 @@ textarea{
         float: left;
         margin:2%;
     }
-    #sideBar{
-        display:none;
+    #sideBar {
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+        margin: 8px;
     }
-
 }
 @media (max-width: 640px) {
 
